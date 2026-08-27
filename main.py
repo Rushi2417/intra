@@ -20,7 +20,7 @@ from src.config.config import DEFAULT_CONFIG
 from src.data.data_provider import SyntheticDataProvider
 from src.logging.candidate_logger import log_candidate, write_candidate_log_csv
 from src.validation.monte_carlo import run_monte_carlo
-from src.validation.performance_analyzer import analyze
+from src.validation.performance_analyzer import analyze, analyze_by_direction, analyze_by_setup
 
 IST = pytz.timezone("Asia/Kolkata")
 
@@ -52,10 +52,21 @@ def run_replay(source: str, days: int) -> None:
     print(f"Closed trades: {len(result.closed_trades)}")
     if result.closed_trades:
         report = analyze(result.closed_trades)
+        print("\n--- Aggregate ---")
         print(report)
+        print("\n--- By direction ---")
+        print(analyze_by_direction(result.closed_trades))
+        print("\n--- By setup ---")
+        print(analyze_by_setup(result.closed_trades))
+        days_with_trades = len({t.entry_time.date() for t in result.closed_trades if t.entry_time})
+        print(f"Days with at least one trade: {days_with_trades}")
+        if days_with_trades:
+            print(f"Avg closed trades per active day: {len(result.closed_trades) / days_with_trades:.2f}")
         r_values = [t.r_multiple_result for t in result.closed_trades if t.r_multiple_result is not None]
         if len(r_values) >= 10:
             print(run_monte_carlo(r_values, n_simulations=1000))
+    else:
+        print("No closed trades in this window.")
     write_candidate_log_csv(result.candidate_log, "outputs/candidate_log_demo.csv")
     print("Wrote outputs/candidate_log_demo.csv")
     print("Replay is research only. Use --mode live for Telegram during market hours.")

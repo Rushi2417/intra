@@ -20,7 +20,7 @@ import pytz
 from src.backtest.cost_model import SlippageScenario, apply_slippage
 from src.config.config import SystemConfig
 from src.data.data_provider import DataProvider
-from src.execution.trade_manager import SignalState, Trade, TradeManager
+from src.execution.trade_manager import SignalState, Trade, TradeManager, trail_inputs
 from src.indicators.indicators import add_core_indicators
 from src.logging.candidate_logger import log_candidate
 from src.backtest.backtest_engine import CandidateLog
@@ -171,9 +171,19 @@ class PaperSession:
                 continue
             last = bars.iloc[-1]
             prev_state = trade.state
-            trade = self.trade_manager.check_bar(trade, last["high"], last["low"], last["close"], last["timestamp"])
+            ema9, swing_low, swing_high = trail_inputs(bars)
+            trade = self.trade_manager.check_bar(
+                trade,
+                last["high"],
+                last["low"],
+                last["close"],
+                last["timestamp"],
+                ema9=ema9,
+                swing_low=swing_low,
+                swing_high=swing_high,
+            )
             minutes = (now - trade.entry_time).total_seconds() / 60.0
-            trade = self.trade_manager.check_time_exit(trade, last["close"], minutes)
+            trade = self.trade_manager.check_time_exit(trade, last["close"], minutes, when=now)
             if now.time() >= self.config.session.square_off_by:
                 trade = self.trade_manager.force_square_off(trade, last["close"], now)
             if trade.state != prev_state:

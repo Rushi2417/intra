@@ -109,6 +109,7 @@ def add_core_indicators(df: pd.DataFrame, ema_fast: int = 20, ema_slow: int = 50
     Must be called per-symbol, per-timeframe, sorted by timestamp ascending.
     """
     out = df.copy()
+    out["ema9"] = ema(out["close"], 9)
     out["ema_fast"] = ema(out["close"], ema_fast)
     out["ema_slow"] = ema(out["close"], ema_slow)
     out["atr"] = atr(out, atr_period)

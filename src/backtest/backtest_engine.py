@@ -21,7 +21,7 @@ import pandas as pd
 from src.backtest.cost_model import SlippageScenario, apply_slippage, compute_round_trip_costs
 from src.config.config import SystemConfig
 from src.data.data_provider import DataProvider
-from src.execution.trade_manager import SignalState, Trade, TradeManager
+from src.execution.trade_manager import SignalState, Trade, TradeManager, trail_inputs
 from src.indicators.indicators import add_core_indicators
 from src.market_regime.regime_engine import MarketRegimeEngine
 from src.risk.position_sizer import compute_position_size
@@ -112,11 +112,21 @@ class BacktestEngine:
                     if bar_now.empty:
                         continue
                     last_bar = bar_now.iloc[-1]
+                    ema9, swing_low, swing_high = trail_inputs(bar_now)
                     trade = self.trade_manager.check_bar(
-                        trade, last_bar["high"], last_bar["low"], last_bar["close"], last_bar["timestamp"]
+                        trade,
+                        last_bar["high"],
+                        last_bar["low"],
+                        last_bar["close"],
+                        last_bar["timestamp"],
+                        ema9=ema9,
+                        swing_low=swing_low,
+                        swing_high=swing_high,
                     )
                     minutes_since_entry = (last_bar["timestamp"] - trade.entry_time).total_seconds() / 60.0
-                    trade = self.trade_manager.check_time_exit(trade, last_bar["close"], minutes_since_entry)
+                    trade = self.trade_manager.check_time_exit(
+                        trade, last_bar["close"], minutes_since_entry, when=last_bar["timestamp"]
+                    )
 
                     if now_row["timestamp"].time() >= self.config.session.square_off_by:
                         trade = self.trade_manager.force_square_off(trade, last_bar["close"], last_bar["timestamp"])
@@ -235,15 +245,24 @@ class BacktestEngine:
         return True
 
     def _settle_trade(self, trade: Trade) -> None:
-        exit_price = apply_slippage(trade.exit_price, trade.direction != Direction.LONG, self.config.cost, self.slippage_scenario)
-        buy_price = trade.entry_price if trade.direction == Direction.LONG else exit_price
-        sell_price = exit_price if trade.direction == Direction.LONG else trade.entry_price
-        costs = compute_round_trip_costs(buy_price, sell_price, trade.quantity, self.config.cost, self.slippage_scenario)
-
-        gross_pnl = (sell_price - buy_price) * trade.quantity
-        net_pnl = gross_pnl - costs.total_cost
+        net_pnl = 0.0
+        if trade.t1_quantity > 0 and trade.t1_fill_price is not None:
+            net_pnl += self._lot_net_pnl(trade, trade.t1_quantity, trade.t1_fill_price)
+        remainder = trade.quantity - trade.t1_quantity
+        if remainder > 0:
+            exit_px = trade.exit_price if trade.exit_price is not None else trade.entry_price
+            net_pnl += self._lot_net_pnl(trade, remainder, exit_px)
         self.equity += net_pnl
 
         sector = getattr(trade, "sector", "UNKNOWN")
         self.daily_state.register_trade_closed(sector=sector, r_result=trade.r_multiple_result or 0.0)
         self.result.closed_trades.append(trade)
+
+    def _lot_net_pnl(self, trade: Trade, quantity: int, exit_price: float) -> float:
+        exit_slipped = apply_slippage(
+            exit_price, trade.direction != Direction.LONG, self.config.cost, self.slippage_scenario
+        )
+        buy_price = trade.entry_price if trade.direction == Direction.LONG else exit_slipped
+        sell_price = exit_slipped if trade.direction == Direction.LONG else trade.entry_price
+        costs = compute_round_trip_costs(buy_price, sell_price, quantity, self.config.cost, self.slippage_scenario)
+        return (sell_price - buy_price) * quantity - costs.total_cost

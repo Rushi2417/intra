@@ -1,17 +1,16 @@
 """
 Setup B: VWAP Trend Continuation (spec section 14).
 
-Requires an established trend (EMA20 vs EMA50 aligned), an impulse move,
-a pullback toward VWAP/EMA20 on contracting volume that holds the level,
-then a confirmation candle in the trend direction with rising volume.
-
-Explicitly rejects choppy conditions where price repeatedly crosses VWAP.
+Impulse of at least 4 closes, pullback that holds VWAP/EMA20 with contracting
+volume, confirmation on the prior closed bar, fill on the current bar only.
 """
 from __future__ import annotations
 
 import pandas as pd
 
+from src.config.config import SetupFlags
 from src.setups.base import Direction, SetupCandidate, SetupType
+from src.setups.fill import chase_too_far, trades_through
 
 
 def _vwap_cross_count(bars: pd.DataFrame) -> int:
@@ -21,18 +20,24 @@ def _vwap_cross_count(bars: pd.DataFrame) -> int:
 
 def detect_vwap_continuation(
     symbol: str,
-    bars_5min: pd.DataFrame,  # recent closed 5-min bars with vwap, ema_fast, ema_slow, volume, candle-quality cols
+    bars_5min: pd.DataFrame,
     direction: Direction,
-    max_allowed_vwap_crosses: int = 3,
+    current_atr: float,
+    max_chase_atr_multiple: float,
+    flags: SetupFlags | None = None,
 ) -> SetupCandidate:
-    if len(bars_5min) < 8:
+    flags = flags or SetupFlags()
+    if len(bars_5min) < 12:
         return SetupCandidate(symbol, SetupType.VWAP_CONTINUATION, direction, False, 0.0,
                                rejection_reason="not enough bars for trend context")
 
-    recent = bars_5min.tail(15).reset_index(drop=True)
+    recent = bars_5min.tail(16).reset_index(drop=True)
+    confirm = recent.iloc[-2]
+    fill = recent.iloc[-1]
+    n = flags.vwap_min_impulse_bars
 
-    ema_bullish = recent.iloc[-1]["ema_fast"] > recent.iloc[-1]["ema_slow"]
-    ema_bearish = recent.iloc[-1]["ema_fast"] < recent.iloc[-1]["ema_slow"]
+    ema_bullish = confirm["ema_fast"] > confirm["ema_slow"]
+    ema_bearish = confirm["ema_fast"] < confirm["ema_slow"]
     if direction == Direction.LONG and not ema_bullish:
         return SetupCandidate(symbol, SetupType.VWAP_CONTINUATION, direction, False, 0.0,
                                rejection_reason="EMA20 not above EMA50, trend not established")
@@ -40,73 +45,80 @@ def detect_vwap_continuation(
         return SetupCandidate(symbol, SetupType.VWAP_CONTINUATION, direction, False, 0.0,
                                rejection_reason="EMA20 not below EMA50, trend not established")
 
-    crosses = _vwap_cross_count(recent)
-    if crosses > max_allowed_vwap_crosses:
+    crosses = _vwap_cross_count(recent.iloc[:-1])
+    if crosses > flags.vwap_max_crosses:
         return SetupCandidate(symbol, SetupType.VWAP_CONTINUATION, direction, False, 0.0,
-                               rejection_reason=f"choppy: {crosses} VWAP crosses in lookback, market is not trending")
+                               rejection_reason=f"choppy: {crosses} VWAP crosses in lookback")
 
-    # find impulse leg: a run of 3+ bars in trend direction
+    rsi = float(confirm.get("rsi", 50) or 50)
+    if direction == Direction.LONG and not (flags.rsi_long_min <= rsi <= flags.rsi_long_max):
+        return SetupCandidate(symbol, SetupType.VWAP_CONTINUATION, direction, False, 0.0,
+                               rejection_reason=f"RSI {rsi:.0f} outside preferred LONG confirmation zone")
+    if direction == Direction.SHORT and not (flags.rsi_short_min <= rsi <= flags.rsi_short_max):
+        return SetupCandidate(symbol, SetupType.VWAP_CONTINUATION, direction, False, 0.0,
+                               rejection_reason=f"RSI {rsi:.0f} outside preferred SHORT confirmation zone")
+
     closes = recent["close"]
-    impulse_found = False
     impulse_end_idx = None
-    for i in range(3, len(recent) - 2):
-        window = closes.iloc[i - 3:i]
+    for i in range(n, len(recent) - 2):
+        window = closes.iloc[i - n : i]
         if direction == Direction.LONG and window.is_monotonic_increasing:
-            impulse_found = True
             impulse_end_idx = i - 1
         if direction == Direction.SHORT and window.is_monotonic_decreasing:
-            impulse_found = True
             impulse_end_idx = i - 1
 
-    if not impulse_found:
+    if impulse_end_idx is None or impulse_end_idx < len(recent) - 10:
         return SetupCandidate(symbol, SetupType.VWAP_CONTINUATION, direction, False, 0.0,
-                               rejection_reason="no clear impulse leg found")
+                               rejection_reason="no recent 4-bar impulse leg")
 
-    # pullback: after impulse, price should retrace toward vwap/ema20 with contracting volume
-    pullback_bars = recent.iloc[impulse_end_idx + 1: len(recent) - 1]
+    pullback_bars = recent.iloc[impulse_end_idx + 1 : -2]
     if len(pullback_bars) < 2:
         return SetupCandidate(symbol, SetupType.VWAP_CONTINUATION, direction, False, 0.0,
                                rejection_reason="no pullback observed yet after impulse")
 
     impulse_bar_vol = recent.iloc[impulse_end_idx]["volume"]
-    pullback_vol_contracted = pullback_bars["volume"].mean() < impulse_bar_vol
+    if pullback_bars["volume"].mean() >= impulse_bar_vol:
+        return SetupCandidate(symbol, SetupType.VWAP_CONTINUATION, direction, False, 0.0,
+                               rejection_reason="pullback volume did not contract")
 
-    holds_level = True
     for _, row in pullback_bars.iterrows():
         level = min(row["vwap"], row["ema_fast"]) if direction == Direction.LONG else max(row["vwap"], row["ema_fast"])
         if direction == Direction.LONG and row["low"] < level * 0.995:
-            holds_level = False
+            return SetupCandidate(symbol, SetupType.VWAP_CONTINUATION, direction, False, 0.0,
+                                   rejection_reason="pullback broke VWAP/EMA20 support")
         if direction == Direction.SHORT and row["high"] > level * 1.005:
-            holds_level = False
+            return SetupCandidate(symbol, SetupType.VWAP_CONTINUATION, direction, False, 0.0,
+                                   rejection_reason="pullback broke VWAP/EMA20 resistance")
 
-    if not holds_level:
-        return SetupCandidate(symbol, SetupType.VWAP_CONTINUATION, direction, False, 0.0,
-                               rejection_reason="pullback broke VWAP/EMA20 support/resistance decisively")
-
-    confirm = recent.iloc[-1]
-    prior = recent.iloc[-2]
+    prior = recent.iloc[-3]
     if direction == Direction.LONG:
         confirm_ok = confirm["close"] > confirm["open"] and confirm["volume"] > prior["volume"]
-        planned_entry = confirm["high"]
-        structural_stop = pullback_bars["low"].min()
+        planned_entry = float(confirm["high"])
+        structural_stop = float(pullback_bars["low"].min())
     else:
         confirm_ok = confirm["close"] < confirm["open"] and confirm["volume"] > prior["volume"]
-        planned_entry = confirm["low"]
-        structural_stop = pullback_bars["high"].max()
+        planned_entry = float(confirm["low"])
+        structural_stop = float(pullback_bars["high"].max())
 
     if not confirm_ok:
         return SetupCandidate(symbol, SetupType.VWAP_CONTINUATION, direction, False, 0.0,
-                               rejection_reason="confirmation candle not yet bullish/bearish with rising volume")
+                               rejection_reason="confirmation candle not directional with rising volume")
 
-    strength = 0.4 * (1.0 if pullback_vol_contracted else 0.5) + 0.3 * (1.0 - min(crosses, max_allowed_vwap_crosses) / max_allowed_vwap_crosses) + 0.3
+    if not trades_through(fill, planned_entry, direction):
+        return SetupCandidate(symbol, SetupType.VWAP_CONTINUATION, direction, False, 0.0,
+                               rejection_reason="fill bar has not traded through confirmation extreme")
+
+    if chase_too_far(fill, planned_entry, current_atr, max_chase_atr_multiple):
+        return SetupCandidate(symbol, SetupType.VWAP_CONTINUATION, direction, False, 0.0,
+                               rejection_reason="price extended beyond planned entry, exceeds chase limit")
 
     return SetupCandidate(
         symbol=symbol,
         setup_type=SetupType.VWAP_CONTINUATION,
         direction=direction,
         matched=True,
-        strength=max(0.0, min(1.0, strength)),
+        strength=0.75,
         planned_entry=planned_entry,
         structural_stop=structural_stop,
-        reason="Impulse + VWAP/EMA20 pullback hold + confirmation break",
+        reason="VWAP impulse + contracted pullback + next-bar fill through confirm",
     )

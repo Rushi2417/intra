@@ -94,6 +94,19 @@ class RiskConfig:
 
 
 @dataclass
+class SetupFlags:
+    enable_orb: bool = True
+    enable_vwap: bool = True
+    enable_compression: bool = True
+    vwap_min_impulse_bars: int = 4
+    vwap_max_crosses: int = 2
+    rsi_long_min: float = 55.0
+    rsi_long_max: float = 70.0
+    rsi_short_min: float = 30.0
+    rsi_short_max: float = 45.0
+
+
+@dataclass
 class TimeExitConfig:
     max_minutes_without_progress: int = 40
     min_r_progress_required: float = 0.5
@@ -157,6 +170,7 @@ class SystemConfig:
     telegram: TelegramConfig = field(default_factory=TelegramConfig)
     failsafe: FailsafeConfig = field(default_factory=FailsafeConfig)
     news: NewsConfig = field(default_factory=NewsConfig)
+    setups: SetupFlags = field(default_factory=SetupFlags)
 
     starting_equity: float = 200_000.0
     max_candidates_per_scan: int = 3

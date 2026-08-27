@@ -20,7 +20,7 @@ from src.news.news_filter import NewsFilter
 from src.risk.risk_manager import DailyRiskState, RiskManager
 from src.scoring.scorer import StockScoreResult, score_stock
 from src.sector.sector_strength import SectorStrengthEngine
-from src.setups.base import Direction, SetupCandidate
+from src.setups.base import Direction, SetupCandidate, SetupType
 from src.setups.compression_breakout import detect_compression_breakout
 from src.setups.orb_retest import detect_orb_retest
 from src.setups.vwap_continuation import detect_vwap_continuation
@@ -236,20 +236,38 @@ class StockScanner:
             opening_range = bars_so_far.iloc[:3]
 
         orh, orl = float(opening_range["high"].max()), float(opening_range["low"].min())
-        setup = detect_orb_retest(
-            sym,
-            bars_so_far.tail(30),
-            orh,
-            orl,
-            avg_volume_5min=float(bars_so_far["volume"].mean()),
-            direction=direction,
-            max_chase_atr_multiple=self.config.risk.max_chase_atr_multiple,
-            current_atr=float(bars_so_far.iloc[-1]["atr"]),
-        )
-        if not setup.matched:
-            setup = detect_vwap_continuation(sym, bars_so_far.tail(20), direction)
-        if not setup.matched:
-            setup = detect_compression_breakout(sym, bars_so_far.tail(15), direction)
+        atr_now = float(bars_so_far.iloc[-1]["atr"])
+        chase = self.config.risk.max_chase_atr_multiple
+        flags = self.config.setups
+        setup = SetupCandidate(sym, SetupType.ORB_RETEST, direction, False, 0.0, rejection_reason="no setup matched")
+        if flags.enable_orb:
+            setup = detect_orb_retest(
+                sym,
+                bars_so_far.tail(30),
+                orh,
+                orl,
+                avg_volume_5min=float(bars_so_far["volume"].mean()),
+                direction=direction,
+                max_chase_atr_multiple=chase,
+                current_atr=atr_now,
+            )
+        if not setup.matched and flags.enable_vwap:
+            setup = detect_vwap_continuation(
+                sym,
+                bars_so_far.tail(20),
+                direction,
+                current_atr=atr_now,
+                max_chase_atr_multiple=chase,
+                flags=flags,
+            )
+        if not setup.matched and flags.enable_compression:
+            setup = detect_compression_breakout(
+                sym,
+                bars_so_far.tail(15),
+                direction,
+                current_atr=atr_now,
+                max_chase_atr_multiple=chase,
+            )
 
         last = bars_so_far.iloc[-1]
         vol = classify_volatility(
