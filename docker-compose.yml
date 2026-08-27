@@ -1,0 +1,11 @@
+services:
+  paper-scanner:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      PORT: "8080"
+    ports:
+      - "8080:8080"
+    command: python scripts/paper_live.py

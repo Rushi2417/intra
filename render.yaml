@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: mvm-paper-scanner
+    runtime: docker
+    plan: starter
+    dockerCommand: python scripts/paper_live.py
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"

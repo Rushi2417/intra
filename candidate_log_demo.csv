@@ -1,0 +1,1485 @@
+timestamp,symbol,setup,direction,score,taken,rejection_reason
+2026-08-19 10:10:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:10:00+05:30,TCS,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:10:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:10:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:10:00+05:30,INFY,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:10:00+05:30,SBIN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:10:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:10:00+05:30,ITC,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:10:00+05:30,LT,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:10:00+05:30,KOTAKBANK,VWAP_TREND_CONTINUATION,LONG,77.13,True,
+2026-08-19 10:10:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:10:00+05:30,MARUTI,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:10:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:10:00+05:30,TITAN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:10:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:15:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:15:00+05:30,TCS,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:15:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:15:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:15:00+05:30,INFY,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:15:00+05:30,SBIN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:15:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:15:00+05:30,ITC,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:15:00+05:30,LT,VWAP_TREND_CONTINUATION,LONG,73.63,False,score 73.6 below minimum 75
+2026-08-19 10:15:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 10:15:00+05:30,MARUTI,VWAP_TREND_CONTINUATION,LONG,77.13,True,
+2026-08-19 10:55:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-19 10:55:00+05:30,TCS,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-19 10:55:00+05:30,HDFCBANK,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-19 10:55:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 10:55:00+05:30,INFY,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-19 10:55:00+05:30,SBIN,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime LOW blocks new entries
+2026-08-19 10:55:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 10:55:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 10:55:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 10:55:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 10:55:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 10:55:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 10:55:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 10:55:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:20:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:20:00+05:30,TCS,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:20:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:20:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:20:00+05:30,INFY,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:20:00+05:30,SBIN,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-19 11:20:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,LONG,75.13,False,max sector exposure reached for BANKING
+2026-08-19 11:20:00+05:30,ITC,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:20:00+05:30,LT,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:20:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:20:00+05:30,MARUTI,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:20:00+05:30,SUNPHARMA,VWAP_TREND_CONTINUATION,LONG,,False,volatility regime EXTREME blocks new entries
+2026-08-19 11:20:00+05:30,TITAN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:20:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:25:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:25:00+05:30,TCS,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:25:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:25:00+05:30,ICICIBANK,VWAP_TREND_CONTINUATION,LONG,74.63,False,score 74.6 below minimum 75
+2026-08-19 11:25:00+05:30,INFY,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:25:00+05:30,SBIN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:25:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:25:00+05:30,ITC,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:25:00+05:30,LT,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:25:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:25:00+05:30,MARUTI,VWAP_TREND_CONTINUATION,LONG,74.63,False,score 74.6 below minimum 75
+2026-08-19 11:25:00+05:30,SUNPHARMA,VWAP_TREND_CONTINUATION,LONG,,False,volatility regime EXTREME blocks new entries
+2026-08-19 11:25:00+05:30,TITAN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:25:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:30:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:30:00+05:30,TCS,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:30:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:30:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:30:00+05:30,INFY,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-19 11:30:00+05:30,SBIN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:30:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:30:00+05:30,ITC,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:30:00+05:30,LT,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:30:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:30:00+05:30,MARUTI,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:30:00+05:30,SUNPHARMA,VWAP_TREND_CONTINUATION,LONG,,False,volatility regime EXTREME blocks new entries
+2026-08-19 11:30:00+05:30,TITAN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:30:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:35:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:35:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:35:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:35:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:35:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-19 11:35:00+05:30,SBIN,VWAP_TREND_CONTINUATION,SHORT,61.73,False,score 61.7 below minimum 75
+2026-08-19 11:35:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-19 11:35:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:35:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:35:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,58.73,False,score 58.7 below minimum 75
+2026-08-19 11:35:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:35:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:35:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,61.73,False,score 61.7 below minimum 75
+2026-08-19 11:35:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:40:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:40:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:40:00+05:30,HDFCBANK,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-19 11:40:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:40:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:40:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:40:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:40:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:40:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:40:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:40:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-19 11:40:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:40:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:40:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 11:45:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:45:00+05:30,TCS,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:45:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:45:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:45:00+05:30,INFY,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:45:00+05:30,SBIN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:45:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:45:00+05:30,ITC,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-19 11:45:00+05:30,LT,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 11:45:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-19 11:45:00+05:30,MARUTI,VWAP_TREND_CONTINUATION,LONG,79.63,True,
+2026-08-19 12:25:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:25:00+05:30,TCS,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:25:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-19 12:25:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,LONG,,False,breakout volume did not expand significantly vs consolidation
+2026-08-19 12:25:00+05:30,INFY,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:25:00+05:30,SBIN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:25:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:25:00+05:30,ITC,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-19 12:25:00+05:30,LT,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-19 12:25:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:25:00+05:30,MARUTI,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:25:00+05:30,SUNPHARMA,VWAP_TREND_CONTINUATION,LONG,74.63,False,score 74.6 below minimum 75
+2026-08-19 12:25:00+05:30,TITAN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:25:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:30:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:30:00+05:30,TCS,VWAP_TREND_CONTINUATION,LONG,73.63,False,score 73.6 below minimum 75
+2026-08-19 12:30:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-19 12:30:00+05:30,ICICIBANK,VWAP_TREND_CONTINUATION,LONG,77.13,False,max trades/day reached (3)
+2026-08-19 12:30:00+05:30,INFY,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:30:00+05:30,SBIN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:30:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,LONG,74.63,False,score 74.6 below minimum 75
+2026-08-19 12:30:00+05:30,ITC,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:30:00+05:30,LT,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:30:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:30:00+05:30,MARUTI,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:30:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:30:00+05:30,TITAN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 12:30:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:10:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:10:00+05:30,TCS,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:10:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:10:00+05:30,ICICIBANK,VWAP_TREND_CONTINUATION,LONG,,False,volatility regime EXTREME blocks new entries
+2026-08-19 13:10:00+05:30,INFY,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:10:00+05:30,SBIN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:10:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,LONG,,False,volatility regime EXTREME blocks new entries
+2026-08-19 13:10:00+05:30,ITC,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:10:00+05:30,LT,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:10:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:10:00+05:30,MARUTI,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:10:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:10:00+05:30,TITAN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:10:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-19 13:15:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:15:00+05:30,TCS,COMPRESSION_BREAKOUT,LONG,,False,breakout volume did not expand significantly vs consolidation
+2026-08-19 13:15:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:15:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:15:00+05:30,INFY,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-19 13:15:00+05:30,SBIN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:15:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:15:00+05:30,ITC,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:15:00+05:30,LT,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:15:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:15:00+05:30,MARUTI,VWAP_TREND_CONTINUATION,LONG,83.23,False,max trades/day reached (3)
+2026-08-19 13:15:00+05:30,SUNPHARMA,VWAP_TREND_CONTINUATION,LONG,,False,volatility regime EXTREME blocks new entries
+2026-08-19 13:15:00+05:30,TITAN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:15:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:20:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:20:00+05:30,TCS,VWAP_TREND_CONTINUATION,LONG,80.73,False,max trades/day reached (3)
+2026-08-19 13:20:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:20:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:20:00+05:30,INFY,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:20:00+05:30,SBIN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:20:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:20:00+05:30,ITC,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:20:00+05:30,LT,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:20:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:20:00+05:30,MARUTI,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:20:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:20:00+05:30,TITAN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:20:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-19 13:30:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:30:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:30:00+05:30,HDFCBANK,VWAP_TREND_CONTINUATION,SHORT,63.53,False,score 63.5 below minimum 75
+2026-08-19 13:30:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:30:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-19 13:30:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-19 13:30:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:30:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,59.03,False,score 59.0 below minimum 75
+2026-08-19 13:30:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:30:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-19 13:30:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:30:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:30:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:30:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:35:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,63.53,False,score 63.5 below minimum 75
+2026-08-19 13:35:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:35:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:35:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:35:00+05:30,INFY,VWAP_TREND_CONTINUATION,SHORT,60.53,False,score 60.5 below minimum 75
+2026-08-19 13:35:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:35:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:35:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-19 13:35:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-19 13:35:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:35:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,61.03,False,score 61.0 below minimum 75
+2026-08-19 13:35:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-19 13:35:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:35:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:35:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:40:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:40:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:40:00+05:30,HDFCBANK,VWAP_TREND_CONTINUATION,SHORT,63.53,False,score 63.5 below minimum 75
+2026-08-19 13:40:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:40:00+05:30,INFY,VWAP_TREND_CONTINUATION,SHORT,63.53,False,score 63.5 below minimum 75
+2026-08-19 13:40:00+05:30,SBIN,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime LOW blocks new entries
+2026-08-19 13:40:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:40:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:40:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-19 13:40:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:40:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:40:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-19 13:40:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:40:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:40:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:45:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime LOW blocks new entries
+2026-08-19 13:45:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:45:00+05:30,HDFCBANK,VWAP_TREND_CONTINUATION,SHORT,63.53,False,score 63.5 below minimum 75
+2026-08-19 13:45:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:45:00+05:30,INFY,VWAP_TREND_CONTINUATION,SHORT,60.53,False,score 60.5 below minimum 75
+2026-08-19 13:45:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-19 13:45:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:45:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:45:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-19 13:45:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:45:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:45:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-19 13:45:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:45:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:45:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:50:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-19 13:50:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:50:00+05:30,HDFCBANK,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-19 13:50:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:50:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:50:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-19 13:50:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:50:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:50:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:50:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:50:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,57.93,False,score 57.9 below minimum 75
+2026-08-19 13:50:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-19 13:50:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:50:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 13:50:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:05:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-19 14:05:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:05:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:05:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:05:00+05:30,INFY,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-19 14:05:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:05:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:05:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-19 14:05:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:05:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:05:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:05:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:05:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:05:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:05:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-19 14:15:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:15:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:15:00+05:30,HDFCBANK,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-19 14:15:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:15:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:15:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:15:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,SHORT,53.93,False,score 53.9 below minimum 75
+2026-08-19 14:15:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-19 14:15:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:15:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:15:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:15:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:15:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-19 14:15:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:15:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:20:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-19 14:20:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-19 14:20:00+05:30,HDFCBANK,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-19 14:20:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:20:00+05:30,INFY,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-19 14:20:00+05:30,SBIN,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-19 14:20:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:20:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:20:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:20:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:20:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-19 14:20:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:20:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-19 14:20:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-19 14:20:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:45:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-19 14:45:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:45:00+05:30,HDFCBANK,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-19 14:45:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:45:00+05:30,INFY,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-19 14:45:00+05:30,SBIN,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-19 14:45:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:45:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-19 14:45:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:45:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:45:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:45:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:45:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:45:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-19 14:45:00+05:30,ULTRACEMCO,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-20 11:20:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:20:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:20:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 11:20:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:20:00+05:30,INFY,VWAP_TREND_CONTINUATION,SHORT,58.43,False,score 58.4 below minimum 75
+2026-08-20 11:20:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:20:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:20:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 11:20:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:20:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:20:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-20 11:20:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:20:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-20 11:20:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime LOW blocks new entries
+2026-08-20 11:20:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 11:55:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:55:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:55:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:55:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:55:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:55:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:55:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-20 11:55:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:55:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:55:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:55:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-20 11:55:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:55:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:55:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 11:55:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:05:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:05:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:05:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:05:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:05:00+05:30,INFY,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-20 12:05:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:05:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,SHORT,52.43,False,score 52.4 below minimum 75
+2026-08-20 12:05:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:05:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:05:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:05:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-20 12:05:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 12:05:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:05:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:05:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:10:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:10:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:10:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:10:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:10:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:10:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:10:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:10:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:10:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:10:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:10:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:10:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:10:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:10:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-20 12:10:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:20:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:20:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:20:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:20:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 12:20:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:20:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:20:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-20 12:20:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-20 12:20:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:20:00+05:30,KOTAKBANK,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-20 12:20:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:20:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:20:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:20:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:20:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:25:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:25:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:25:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:25:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:25:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:25:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:25:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-20 12:25:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,67.43,False,score 67.4 below minimum 75
+2026-08-20 12:25:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:25:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:25:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-20 12:25:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:25:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:25:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:25:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:45:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:45:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:45:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:45:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:45:00+05:30,INFY,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-20 12:45:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 12:45:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:45:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:45:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 12:45:00+05:30,KOTAKBANK,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-20 12:45:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-20 12:45:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 12:45:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 12:45:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-20 12:45:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:00:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:00:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:00:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:00:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:00:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:00:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:00:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-20 13:00:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:00:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:00:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:00:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime LOW blocks new entries
+2026-08-20 13:00:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:00:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:00:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:00:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:05:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:05:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:05:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:05:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:05:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:05:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:05:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-20 13:05:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:05:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:05:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:05:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-20 13:05:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:05:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:05:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:05:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:10:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:10:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:10:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:10:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:10:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:10:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:10:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:10:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:10:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:10:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:10:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:10:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:10:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:10:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:10:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:15:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:15:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:15:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:15:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:15:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:15:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:15:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:15:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:15:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:15:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:15:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-20 13:15:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:15:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:15:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-20 13:15:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:20:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:20:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:20:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:20:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:20:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:20:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:20:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-20 13:20:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:20:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:20:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:20:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:20:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:20:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:20:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:20:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:25:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:25:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:25:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:25:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:25:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:25:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:25:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,SHORT,55.43,False,score 55.4 below minimum 75
+2026-08-20 13:25:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:25:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:25:00+05:30,KOTAKBANK,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-20 13:25:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-20 13:25:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:25:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:25:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-20 13:25:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:30:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:30:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:30:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:30:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:30:00+05:30,INFY,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-20 13:30:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:30:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:30:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:30:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:30:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:30:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:30:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:30:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:30:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:30:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:35:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:35:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:35:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:35:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:35:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:35:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:35:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-20 13:35:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:35:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:35:00+05:30,KOTAKBANK,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-20 13:35:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:35:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:35:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:35:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-20 13:35:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:40:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:40:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:40:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:40:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:40:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:40:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:40:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:40:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:40:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:40:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:40:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:40:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:40:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:40:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:40:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:55:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:55:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:55:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 13:55:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:55:00+05:30,INFY,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-20 13:55:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:55:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-20 13:55:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:55:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:55:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:55:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:55:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:55:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 13:55:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-20 13:55:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:00:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:00:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:00:00+05:30,HDFCBANK,VWAP_TREND_CONTINUATION,SHORT,69.93,False,score 69.9 below minimum 75
+2026-08-20 14:00:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:00:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-20 14:00:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:00:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-20 14:00:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:00:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:00:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:00:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:00:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:00:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:00:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:00:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:05:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:05:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:05:00+05:30,HDFCBANK,VWAP_TREND_CONTINUATION,SHORT,67.43,False,score 67.4 below minimum 75
+2026-08-20 14:05:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:05:00+05:30,INFY,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-20 14:05:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:05:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-20 14:05:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,65.93,False,score 65.9 below minimum 75
+2026-08-20 14:05:00+05:30,LT,VWAP_TREND_CONTINUATION,SHORT,62.93,False,score 62.9 below minimum 75
+2026-08-20 14:05:00+05:30,KOTAKBANK,VWAP_TREND_CONTINUATION,SHORT,57.93,False,score 57.9 below minimum 75
+2026-08-20 14:05:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:05:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:05:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:05:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:05:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:10:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:10:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:10:00+05:30,HDFCBANK,VWAP_TREND_CONTINUATION,SHORT,64.43,False,score 64.4 below minimum 75
+2026-08-20 14:10:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:10:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:10:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:10:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:10:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:10:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:10:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:10:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-20 14:10:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:10:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:10:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:10:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:15:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:15:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:15:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:15:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:15:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:15:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:15:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-20 14:15:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:15:00+05:30,LT,VWAP_TREND_CONTINUATION,SHORT,62.93,False,score 62.9 below minimum 75
+2026-08-20 14:15:00+05:30,KOTAKBANK,VWAP_TREND_CONTINUATION,SHORT,55.43,False,score 55.4 below minimum 75
+2026-08-20 14:15:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-20 14:15:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:15:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:15:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-20 14:15:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:20:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:20:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:20:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:20:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:20:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:20:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:20:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-20 14:20:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:20:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:20:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:20:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:20:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:20:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:20:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:20:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:25:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:25:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:25:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:25:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:25:00+05:30,INFY,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-20 14:25:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:25:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:25:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:25:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:25:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:25:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-20 14:25:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:25:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:25:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-20 14:25:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:30:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:30:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:30:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:30:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:30:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:30:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-20 14:30:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:30:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:30:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:30:00+05:30,KOTAKBANK,VWAP_TREND_CONTINUATION,SHORT,54.93,False,score 54.9 below minimum 75
+2026-08-20 14:30:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:30:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:30:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:30:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-20 14:30:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:35:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:35:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:35:00+05:30,HDFCBANK,VWAP_TREND_CONTINUATION,SHORT,64.43,False,score 64.4 below minimum 75
+2026-08-20 14:35:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:35:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:35:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:35:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:35:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:35:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:35:00+05:30,KOTAKBANK,VWAP_TREND_CONTINUATION,SHORT,52.43,False,score 52.4 below minimum 75
+2026-08-20 14:35:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:35:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:35:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:35:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:35:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:40:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:40:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:40:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:40:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:40:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:40:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:40:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-20 14:40:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:40:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:40:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:40:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-20 14:40:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:40:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:40:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-20 14:40:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:45:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:45:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:45:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:45:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:45:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-20 14:45:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:45:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-20 14:45:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:45:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:45:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:45:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:45:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:45:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:45:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-20 14:45:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-21 12:10:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,LONG,68.13,False,score 68.1 below minimum 75
+2026-08-21 12:10:00+05:30,TCS,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 12:10:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 12:10:00+05:30,ICICIBANK,VWAP_TREND_CONTINUATION,LONG,77.63,True,
+2026-08-21 12:10:00+05:30,INFY,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 12:10:00+05:30,SBIN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 12:10:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 12:10:00+05:30,ITC,VWAP_TREND_CONTINUATION,LONG,58.13,False,score 58.1 below minimum 75
+2026-08-21 12:10:00+05:30,LT,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 12:10:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 12:10:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 12:10:00+05:30,MARUTI,VWAP_TREND_CONTINUATION,LONG,69.63,False,score 69.6 below minimum 75
+2026-08-21 12:10:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-21 12:10:00+05:30,TITAN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 12:10:00+05:30,ULTRACEMCO,VWAP_TREND_CONTINUATION,LONG,,False,volatility regime EXTREME blocks new entries
+2026-08-21 13:55:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 13:55:00+05:30,TCS,COMPRESSION_BREAKOUT,LONG,,False,breakout volume did not expand significantly vs consolidation
+2026-08-21 13:55:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 13:55:00+05:30,ICICIBANK,VWAP_TREND_CONTINUATION,LONG,,False,volatility regime EXTREME blocks new entries
+2026-08-21 13:55:00+05:30,INFY,VWAP_TREND_CONTINUATION,LONG,,False,volatility regime LOW blocks new entries
+2026-08-21 13:55:00+05:30,SBIN,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-21 13:55:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 13:55:00+05:30,ITC,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 13:55:00+05:30,LT,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 13:55:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 13:55:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 13:55:00+05:30,MARUTI,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 13:55:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 13:55:00+05:30,TITAN,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 13:55:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 14:00:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-21 14:00:00+05:30,TCS,VWAP_TREND_CONTINUATION,LONG,,False,volatility regime EXTREME blocks new entries
+2026-08-21 14:00:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 14:00:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 14:00:00+05:30,INFY,VWAP_TREND_CONTINUATION,LONG,83.23,True,
+2026-08-21 14:00:00+05:30,SBIN,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-21 14:00:00+05:30,AXISBANK,VWAP_TREND_CONTINUATION,LONG,,False,volatility regime EXTREME blocks new entries
+2026-08-21 14:00:00+05:30,ITC,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 14:00:00+05:30,LT,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 14:00:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 14:00:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 14:00:00+05:30,MARUTI,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 14:00:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 14:00:00+05:30,TITAN,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-21 14:00:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 14:05:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,LONG,,False,price has not broken consolidation range yet
+2026-08-21 14:05:00+05:30,TCS,COMPRESSION_BREAKOUT,LONG,,False,no compression pattern detected
+2026-08-21 14:05:00+05:30,HDFCBANK,VWAP_TREND_CONTINUATION,LONG,,False,volatility regime EXTREME blocks new entries
+2026-08-21 14:05:00+05:30,ICICIBANK,VWAP_TREND_CONTINUATION,LONG,80.23,True,
+2026-08-24 10:15:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:15:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:15:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:15:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:15:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:15:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:15:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:15:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:15:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:15:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:15:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,56.43,False,score 56.4 below minimum 75
+2026-08-24 10:15:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:15:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:15:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:15:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:20:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-24 10:20:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:20:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:20:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:20:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:20:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:20:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:20:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:20:00+05:30,LT,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-24 10:20:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:20:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:20:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:20:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:20:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime LOW blocks new entries
+2026-08-24 10:20:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:25:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:25:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:25:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:25:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:25:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:25:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:25:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:25:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:25:00+05:30,LT,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-24 10:25:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:25:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:25:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:25:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:25:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:25:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:30:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:30:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:30:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:30:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:30:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:30:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:30:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:30:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:30:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:30:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:30:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:30:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:30:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:30:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:30:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:35:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:35:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:35:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:35:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:35:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:35:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:35:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:35:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:35:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:35:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:35:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:35:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:35:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:35:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:35:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:40:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:40:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:40:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:40:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:40:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:40:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:40:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:40:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:40:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:40:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:40:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:40:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:40:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:40:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:40:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:45:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:45:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:45:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:45:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:45:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:45:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:45:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:45:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:45:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:45:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:45:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:45:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:45:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:45:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:45:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:50:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,54.93,False,score 54.9 below minimum 75
+2026-08-24 10:50:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:50:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:50:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:50:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:50:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:50:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:50:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,54.93,False,score 54.9 below minimum 75
+2026-08-24 10:50:00+05:30,LT,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-24 10:50:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:50:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:50:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:50:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:50:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,67.43,False,score 67.4 below minimum 75
+2026-08-24 10:50:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:55:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-24 10:55:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:55:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:55:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:55:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:55:00+05:30,SBIN,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 10:55:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:55:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,55.43,False,score 55.4 below minimum 75
+2026-08-24 10:55:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 10:55:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:55:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:55:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:55:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:55:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 10:55:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:00:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,54.93,False,score 54.9 below minimum 75
+2026-08-24 11:00:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 11:00:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:00:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:00:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:00:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:00:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:00:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,52.43,False,score 52.4 below minimum 75
+2026-08-24 11:00:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 11:00:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:00:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:00:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:00:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:00:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:00:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:05:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-24 11:05:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-24 11:05:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:05:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:05:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:05:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:05:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:05:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:05:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:05:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:05:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:05:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:05:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 11:05:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,69.93,False,score 69.9 below minimum 75
+2026-08-24 11:05:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:30:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:30:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:30:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:30:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 11:30:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:30:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:30:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:30:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:30:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:30:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:30:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,52.43,False,score 52.4 below minimum 75
+2026-08-24 11:30:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:30:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:30:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:30:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:35:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:35:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-24 11:35:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:35:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:35:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:35:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 11:35:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:35:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,57.93,False,score 57.9 below minimum 75
+2026-08-24 11:35:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:35:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:35:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:35:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:35:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:35:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 11:35:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:40:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:40:00+05:30,TCS,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 11:40:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:40:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:40:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:40:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:40:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:40:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,57.93,False,score 57.9 below minimum 75
+2026-08-24 11:40:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:40:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:40:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:40:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:40:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 11:40:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,55.43,False,score 55.4 below minimum 75
+2026-08-24 11:40:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:05:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:05:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:05:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:05:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:05:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:05:00+05:30,SBIN,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-24 12:05:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:05:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 12:05:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:05:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:05:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:05:00+05:30,MARUTI,ORB_BREAKOUT_RETEST,SHORT,54.01,False,score 54.0 below minimum 75
+2026-08-24 12:05:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:05:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,49.93,False,score 49.9 below minimum 75
+2026-08-24 12:05:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:10:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-24 12:10:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:10:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:10:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:10:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:10:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:10:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:10:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:10:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:10:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:10:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:10:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:10:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:10:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:10:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:15:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:15:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:15:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:15:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:15:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:15:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:15:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:15:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,57.93,False,score 57.9 below minimum 75
+2026-08-24 12:15:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:15:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:15:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,55.93,False,score 55.9 below minimum 75
+2026-08-24 12:15:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:15:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:15:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:15:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:20:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-24 12:20:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-24 12:20:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:20:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:20:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:20:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:20:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:20:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-24 12:20:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:20:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:20:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:20:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:20:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:20:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:20:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:25:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:25:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:25:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:25:00+05:30,ICICIBANK,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-24 12:25:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:25:00+05:30,SBIN,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-24 12:25:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:25:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:25:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:25:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:25:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:25:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:25:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:25:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,55.43,False,score 55.4 below minimum 75
+2026-08-24 12:25:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:30:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-24 12:30:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:30:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:30:00+05:30,ICICIBANK,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 12:30:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:30:00+05:30,SBIN,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-24 12:30:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:30:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 12:30:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:30:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:30:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:30:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:30:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:30:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:30:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:35:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:35:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:35:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:35:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:35:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:35:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:35:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:35:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:35:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:35:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:35:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:35:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:35:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:35:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-24 12:35:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:40:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:40:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:40:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:40:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-24 12:40:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:40:00+05:30,SBIN,VWAP_TREND_CONTINUATION,SHORT,53.43,False,score 53.4 below minimum 75
+2026-08-24 12:40:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:40:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:40:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:40:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:40:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime LOW blocks new entries
+2026-08-24 12:40:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:40:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:40:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:40:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:45:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:45:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:45:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:45:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:45:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:45:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:45:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:45:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-24 12:45:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:45:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:45:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:45:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:45:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:45:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,53.93,False,score 53.9 below minimum 75
+2026-08-24 12:45:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:50:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 12:50:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:50:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:50:00+05:30,ICICIBANK,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-24 12:50:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:50:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:50:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:50:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:50:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:50:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:50:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:50:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:50:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:50:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:50:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:55:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:55:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:55:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:55:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:55:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:55:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:55:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:55:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:55:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:55:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:55:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-24 12:55:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:55:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 12:55:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 12:55:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:00:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 13:00:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:00:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:00:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:00:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:00:00+05:30,SBIN,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime EXTREME blocks new entries
+2026-08-24 13:00:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:00:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:00:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:00:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:00:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:00:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:00:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:00:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:00:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:05:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 13:05:00+05:30,TCS,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 13:05:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:05:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:05:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:05:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:05:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:05:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-24 13:05:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:05:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:05:00+05:30,BAJFINANCE,VWAP_TREND_CONTINUATION,SHORT,62.93,False,score 62.9 below minimum 75
+2026-08-24 13:05:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:05:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:05:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime LOW blocks new entries
+2026-08-24 13:05:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:10:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:10:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:10:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:10:00+05:30,ICICIBANK,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-24 13:10:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:10:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:10:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:10:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-24 13:10:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:10:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:10:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:10:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:10:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:10:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:10:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:15:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-24 13:15:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:15:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:15:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:15:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:15:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:15:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:15:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:15:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:15:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:15:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:15:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:15:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:15:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:15:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:20:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:20:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:20:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:20:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:20:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:20:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:20:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:20:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-24 13:20:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:20:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:20:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:20:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:20:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:20:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:20:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:25:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:25:00+05:30,TCS,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 13:25:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:25:00+05:30,ICICIBANK,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 13:25:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:25:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:25:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:25:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-24 13:25:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:25:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:25:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:25:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:25:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:25:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:25:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:30:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-24 13:30:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:30:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:30:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-24 13:30:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:30:00+05:30,SBIN,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 13:30:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:30:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:30:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:30:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:30:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:30:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:30:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:30:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:30:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:35:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:35:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:35:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:35:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:35:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:35:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:35:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:35:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-24 13:35:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:35:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:35:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:35:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:35:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:35:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:35:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:40:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 13:40:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:40:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:40:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:40:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:40:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:40:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:40:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:40:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:40:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:40:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:40:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:40:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:40:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:40:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:45:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-24 13:45:00+05:30,TCS,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-24 13:45:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:45:00+05:30,ICICIBANK,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 13:45:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:45:00+05:30,SBIN,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 13:45:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:45:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-24 13:45:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:45:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:45:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:45:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:45:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:45:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:45:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:50:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:50:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:50:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:50:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:50:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:50:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:50:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:50:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:50:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:50:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:50:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:50:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:50:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:50:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-24 13:50:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:55:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:55:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-24 13:55:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:55:00+05:30,ICICIBANK,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-24 13:55:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:55:00+05:30,SBIN,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 13:55:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:55:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-24 13:55:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:55:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:55:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:55:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:55:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 13:55:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 13:55:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:00:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-24 14:00:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:00:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:00:00+05:30,ICICIBANK,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-24 14:00:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:00:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:00:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:00:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-24 14:00:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:00:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:00:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:00:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:00:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:00:00+05:30,TITAN,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime LOW blocks new entries
+2026-08-24 14:00:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:05:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:05:00+05:30,TCS,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-24 14:05:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:05:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:05:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:05:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:05:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:05:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:05:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:05:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:05:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:05:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:05:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:05:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:05:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:10:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:10:00+05:30,TCS,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime LOW blocks new entries
+2026-08-24 14:10:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:10:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:10:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:10:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:10:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:10:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 14:10:00+05:30,LT,VWAP_TREND_CONTINUATION,SHORT,55.43,False,score 55.4 below minimum 75
+2026-08-24 14:10:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:10:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:10:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:10:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:10:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:10:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:15:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-24 14:15:00+05:30,TCS,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-24 14:15:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:15:00+05:30,ICICIBANK,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 14:15:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:15:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:15:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:15:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:15:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-24 14:15:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:15:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:15:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:15:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:15:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:15:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:20:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-24 14:20:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:20:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:20:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:20:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:20:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:20:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:20:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-24 14:20:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:20:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:20:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:20:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:20:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:20:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:20:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:25:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:25:00+05:30,TCS,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-24 14:25:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:25:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:25:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:25:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:25:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:25:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:25:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:25:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:25:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:25:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:25:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:25:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:25:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:30:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-24 14:30:00+05:30,TCS,VWAP_TREND_CONTINUATION,SHORT,59.93,False,score 59.9 below minimum 75
+2026-08-24 14:30:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:30:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:30:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:30:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:30:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:30:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 14:30:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:30:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:30:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:30:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:30:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:30:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:30:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:35:00+05:30,RELIANCE,COMPRESSION_BREAKOUT,SHORT,,False,breakout volume did not expand significantly vs consolidation
+2026-08-24 14:35:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:35:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:35:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:35:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:35:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:35:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:35:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:35:00+05:30,LT,VWAP_TREND_CONTINUATION,SHORT,52.93,False,score 52.9 below minimum 75
+2026-08-24 14:35:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:35:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:35:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:35:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:35:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:35:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:40:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 14:40:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:40:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:40:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:40:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:40:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:40:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:40:00+05:30,ITC,VWAP_TREND_CONTINUATION,SHORT,56.93,False,score 56.9 below minimum 75
+2026-08-24 14:40:00+05:30,LT,VWAP_TREND_CONTINUATION,SHORT,,False,volatility regime LOW blocks new entries
+2026-08-24 14:40:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:40:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:40:00+05:30,MARUTI,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:40:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:40:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:40:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:45:00+05:30,RELIANCE,VWAP_TREND_CONTINUATION,SHORT,57.43,False,score 57.4 below minimum 75
+2026-08-24 14:45:00+05:30,TCS,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:45:00+05:30,HDFCBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:45:00+05:30,ICICIBANK,COMPRESSION_BREAKOUT,SHORT,,False,price has not broken consolidation range yet
+2026-08-24 14:45:00+05:30,INFY,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:45:00+05:30,SBIN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:45:00+05:30,AXISBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:45:00+05:30,ITC,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:45:00+05:30,LT,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:45:00+05:30,KOTAKBANK,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:45:00+05:30,BAJFINANCE,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:45:00+05:30,MARUTI,VWAP_TREND_CONTINUATION,SHORT,54.43,False,score 54.4 below minimum 75
+2026-08-24 14:45:00+05:30,SUNPHARMA,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:45:00+05:30,TITAN,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
+2026-08-24 14:45:00+05:30,ULTRACEMCO,COMPRESSION_BREAKOUT,SHORT,,False,no compression pattern detected
