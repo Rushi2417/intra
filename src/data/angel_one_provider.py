@@ -35,6 +35,12 @@ INDEX_ALIASES = {
     "NIFTY 50": ("NSE", "99926000"),
 }
 
+# Angel tradingsymbol fallbacks when NSE renamed a series.
+SYMBOL_ALIASES = {
+    "TMPV": ["TMPV", "TATAMOTORS"],
+    "ETERNAL": ["ETERNAL", "ZOMATO"],
+}
+
 INTERVAL_MAP = {
     "1min": "ONE_MINUTE",
     "5min": "FIVE_MINUTE",
@@ -44,10 +50,19 @@ INTERVAL_MAP = {
 # Angel often caps a single 1-minute request; chunk to stay under limits.
 MAX_CHUNK_DAYS = {"1min": 5, "5min": 20, "15min": 40}
 
+# Snapshot of NIFTY 50 cash names (Aug 2026). Not auto-updated on index rebalance.
+# NIFTY50 index itself is fetched separately as the regime benchmark and is not traded.
 DEFAULT_UNIVERSE = [
-    "RELIANCE", "TCS", "HDFCBANK", "ICICIBANK", "INFY",
-    "SBIN", "AXISBANK", "ITC", "LT", "KOTAKBANK",
-    "BAJFINANCE", "MARUTI", "SUNPHARMA", "TITAN", "ULTRACEMCO",
+    "RELIANCE", "BHARTIARTL", "HDFCBANK", "ICICIBANK", "SBIN",
+    "TCS", "BAJFINANCE", "LT", "HINDUNILVR", "INFY",
+    "SUNPHARMA", "TITAN", "MARUTI", "M&M", "ADANIENT",
+    "KOTAKBANK", "ADANIPORTS", "AXISBANK", "HCLTECH", "ULTRACEMCO",
+    "ITC", "NTPC", "BAJAJ-AUTO", "JSWSTEEL", "BAJAJFINSV",
+    "ETERNAL", "BEL", "ONGC", "SHRIRAMFIN", "ASIANPAINT",
+    "POWERGRID", "COALINDIA", "HINDALCO", "TATASTEEL", "GRASIM",
+    "EICHERMOT", "INDIGO", "WIPRO", "SBILIFE", "JIOFIN",
+    "TECHM", "TRENT", "APOLLOHOSP", "HDFCLIFE", "TMPV",
+    "CIPLA", "TATACONSUM", "DRREDDY", "MAXHEALTH",
 ]
 
 
@@ -146,14 +161,16 @@ class AngelOneDataProvider(DataProvider):
             return INDEX_ALIASES[key]
 
         master = self._ensure_scrip_master()
-        equity_name = f"{key}-EQ"
-        for row in master:
-            if str(row.get("exch_seg", "")).upper() != "NSE":
-                continue
-            if str(row.get("symbol", "")).upper() == equity_name:
-                token = str(row["token"])
-                self._token_by_symbol[key] = ("NSE", token)
-                return "NSE", token
+        candidates = SYMBOL_ALIASES.get(key, [key])
+        for name in candidates:
+            equity_name = f"{name}-EQ"
+            for row in master:
+                if str(row.get("exch_seg", "")).upper() != "NSE":
+                    continue
+                if str(row.get("symbol", "")).upper() == equity_name:
+                    token = str(row["token"])
+                    self._token_by_symbol[key] = ("NSE", token)
+                    return "NSE", token
 
         raise KeyError(
             f"Could not resolve {symbol} to an NSE equity token in Angel scrip master"

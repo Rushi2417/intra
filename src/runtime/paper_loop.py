@@ -127,6 +127,9 @@ class PaperSession:
         for sym in names:
             try:
                 bars = self.provider.get_bars(sym, lookback, now, "5min")
+            except KeyError as e:
+                print(f"Skipping {sym}: {e}")
+                continue
             except Exception as e:
                 self.failsafe.halt(f"data feed error for {sym}: {e}")
                 self.notifier.send_system_error(self.failsafe.reason or str(e))
@@ -142,6 +145,9 @@ class PaperSession:
         for sym in names:
             try:
                 today = self.provider.get_bars(sym, start, now, "5min")
+            except KeyError as e:
+                print(f"Skipping {sym}: {e}")
+                continue
             except Exception as e:
                 self.failsafe.halt(f"data feed error for {sym}: {e}")
                 self.notifier.send_system_error(self.failsafe.reason or str(e))
