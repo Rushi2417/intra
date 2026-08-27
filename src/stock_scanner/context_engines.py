@@ -21,8 +21,11 @@ def add_time_bucket(df: pd.DataFrame) -> pd.DataFrame:
     if df.empty:
         return df
     out = df.copy()
-    ts = pd.to_datetime(out["timestamp"], utc=True)
-    ts = ts.dt.tz_convert(IST_TZ)
+    ts = pd.to_datetime(out["timestamp"], utc=True, errors="coerce")
+    out = out.loc[ts.notna()].copy()
+    if out.empty:
+        return out
+    ts = ts.loc[ts.notna()].dt.tz_convert(IST_TZ)
     out["time_bucket"] = ts.dt.strftime("%H:%M")
     return out
 

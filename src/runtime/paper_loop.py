@@ -153,10 +153,12 @@ class PaperSession:
             if "exceeding access rate" in str(e).lower():
                 self._notify_rate_limit(f"{sym}: {e}")
                 raise AngelRateLimitError(str(e)) from e
-            self.failsafe.halt(f"data feed error for {sym}: {e}")
-            if not self._failsafe_alerted:
-                self.notifier.send_system_error(self.failsafe.reason or str(e))
-                self._failsafe_alerted = True
+            print(f"Skipping {sym}: {e}")
+            if sym in ("NIFTY50", "NIFTY"):
+                self.failsafe.halt(f"data feed error for {sym}: {e}")
+                if not self._failsafe_alerted:
+                    self.notifier.send_system_error(self.failsafe.reason or str(e))
+                    self._failsafe_alerted = True
             return None
 
     def _refresh_history(self, now: datetime) -> None:

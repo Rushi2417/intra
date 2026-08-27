@@ -53,7 +53,7 @@ class RankedCandidate:
 
 
 def _bar_times(series: pd.Series) -> pd.Series:
-    ts = pd.to_datetime(series)
+    ts = pd.to_datetime(series, utc=True, errors="coerce")
     if getattr(ts.dt, "tz", None) is None:
         return ts.dt.time
     return ts.dt.tz_convert("Asia/Kolkata").dt.time

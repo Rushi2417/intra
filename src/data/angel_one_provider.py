@@ -107,6 +107,36 @@ def _localize(ts: datetime) -> datetime:
     return ts.astimezone(IST)
 
 
+def _empty_bars(symbol: str = "") -> pd.DataFrame:
+    return pd.DataFrame(
+        {
+            "timestamp": pd.Series(dtype="datetime64[ns, Asia/Kolkata]"),
+            "session_date": pd.Series(dtype="object"),
+            "symbol": pd.Series(dtype="object"),
+            "open": pd.Series(dtype="float64"),
+            "high": pd.Series(dtype="float64"),
+            "low": pd.Series(dtype="float64"),
+            "close": pd.Series(dtype="float64"),
+            "volume": pd.Series(dtype="float64"),
+        }
+    )
+
+
+def _normalize_bar_frame(df: pd.DataFrame, symbol: str) -> pd.DataFrame:
+    if df is None or df.empty:
+        return _empty_bars(symbol)
+    out = df.copy()
+    ts = pd.to_datetime(out["timestamp"], utc=True, errors="coerce")
+    out = out.loc[ts.notna()].copy()
+    if out.empty:
+        return _empty_bars(symbol)
+    out["timestamp"] = ts.loc[ts.notna()].dt.tz_convert(IST)
+    out = out.drop_duplicates(subset=["timestamp"]).sort_values("timestamp")
+    out["symbol"] = symbol.upper()
+    out["session_date"] = out["timestamp"].dt.tz_convert(IST).dt.date
+    return out.reset_index(drop=True)
+
+
 class AngelOneDataProvider(DataProvider):
     def __init__(self, symbols: Optional[List[str]] = None):
         self.symbols = symbols or list(DEFAULT_UNIVERSE)
@@ -211,16 +241,13 @@ class AngelOneDataProvider(DataProvider):
             cursor = chunk_end
 
         if not frames:
-            return pd.DataFrame(
-                columns=["timestamp", "session_date", "symbol", "open", "high", "low", "close", "volume"]
-            )
+            return _empty_bars(symbol)
+        frames = [f for f in frames if f is not None and not f.empty]
+        if not frames:
+            return _empty_bars(symbol)
         df = pd.concat(frames, ignore_index=True)
-        if df.empty:
-            return df
-        df = df.drop_duplicates(subset=["timestamp"]).sort_values("timestamp")
-        df["symbol"] = symbol.upper()
-        df["session_date"] = df["timestamp"].dt.tz_convert(IST).dt.date
-        return df.reset_index(drop=True)
+        df = _normalize_bar_frame(df, symbol)
+        return df
 
     def _throttle(self) -> None:
         with self._call_lock:
@@ -271,9 +298,7 @@ class AngelOneDataProvider(DataProvider):
         raw = self._get_candle_data(params)
         rows = (raw or {}).get("data") or []
         if not rows:
-            return pd.DataFrame(
-                columns=["timestamp", "open", "high", "low", "close", "volume"]
-            )
+            return _empty_bars()
 
         parsed = []
         for item in rows:
