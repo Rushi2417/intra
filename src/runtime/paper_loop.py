@@ -10,7 +10,7 @@ from __future__ import annotations
 import os
 import threading
 import time
-from datetime import datetime, timedelta
+from datetime import datetime, time as dt_time, timedelta
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from typing import Dict, Optional
 
@@ -19,6 +19,7 @@ import pytz
 
 from src.backtest.cost_model import SlippageScenario, apply_slippage
 from src.config.config import SystemConfig
+from src.data.angel_one_provider import AngelRateLimitError
 from src.data.data_provider import DataProvider
 from src.execution.trade_manager import SignalState, Trade, TradeManager, trail_inputs
 from src.indicators.indicators import add_core_indicators
@@ -33,6 +34,12 @@ from src.telegram.telegram_notifier import SignalContext, TelegramNotifier
 
 IST = pytz.timezone("Asia/Kolkata")
 _HEALTH = {"ok": True, "detail": "starting"}
+_OHLCV_COLS = ["timestamp", "session_date", "symbol", "open", "high", "low", "close", "volume"]
+
+
+def _ohlcv_only(df: pd.DataFrame) -> pd.DataFrame:
+    cols = [c for c in _OHLCV_COLS if c in df.columns]
+    return df[cols].copy()
 
 
 class _HealthHandler(BaseHTTPRequestHandler):
@@ -107,6 +114,10 @@ class PaperSession:
         self._session_date = None
         self._failsafe_alerted = False
         self._disabled_alerted = False
+        self._rate_limit_alerted = False
+        self._use_cached_bars = False
+        self._history_loaded: set[str] = set()
+        self._loading_date = None
 
     def _now(self) -> datetime:
         return datetime.now(IST)
@@ -121,47 +132,85 @@ class PaperSession:
         t = now.time()
         return self.config.session.trading_window_start <= t <= self.config.session.trading_window_end
 
+    def _notify_rate_limit(self, detail: str) -> None:
+        print(f"Angel rate limit: {detail}")
+        if not self._rate_limit_alerted:
+            self.notifier.send_system_error(
+                "Angel candle rate limit. Backing off; scanner will retry. Not a strategy halt."
+            )
+            self._rate_limit_alerted = True
+
+    def _fetch_bars(self, sym: str, start: datetime, end: datetime) -> Optional[pd.DataFrame]:
+        try:
+            return self.provider.get_bars(sym, start, end, "5min")
+        except KeyError as e:
+            print(f"Skipping {sym}: {e}")
+            return None
+        except AngelRateLimitError as e:
+            self._notify_rate_limit(f"{sym}: {e}")
+            raise
+        except Exception as e:
+            if "exceeding access rate" in str(e).lower():
+                self._notify_rate_limit(f"{sym}: {e}")
+                raise AngelRateLimitError(str(e)) from e
+            self.failsafe.halt(f"data feed error for {sym}: {e}")
+            if not self._failsafe_alerted:
+                self.notifier.send_system_error(self.failsafe.reason or str(e))
+                self._failsafe_alerted = True
+            return None
+
     def _refresh_history(self, now: datetime) -> None:
         lookback = now - timedelta(days=self.config.rvol.lookback_days + 5)
         names = list(self.symbols) + ["NIFTY50"]
         for sym in names:
-            try:
-                bars = self.provider.get_bars(sym, lookback, now, "5min")
-            except KeyError as e:
-                print(f"Skipping {sym}: {e}")
+            if sym in self._history_loaded:
                 continue
-            except Exception as e:
-                self.failsafe.halt(f"data feed error for {sym}: {e}")
-                self.notifier.send_system_error(self.failsafe.reason or str(e))
-                return
+            bars = self._fetch_bars(sym, lookback, now)
+            if bars is None:
+                self._history_loaded.add(sym)
+                continue
             if bars.empty:
+                self._history_loaded.add(sym)
                 continue
-            self.history[sym] = add_core_indicators(bars)
+            self.history[sym] = add_core_indicators(_ohlcv_only(bars))
+            self._history_loaded.add(sym)
 
-    def _combine_today(self, now: datetime) -> Dict[str, pd.DataFrame]:
+    def _combine_today(self, now: datetime, cache_only: bool = False) -> Dict[str, pd.DataFrame]:
         start = IST.localize(datetime.combine(now.date(), self.config.session.market_open))
         out: Dict[str, pd.DataFrame] = {}
         names = list(self.symbols) + ["NIFTY50"]
         for sym in names:
-            try:
-                today = self.provider.get_bars(sym, start, now, "5min")
-            except KeyError as e:
-                print(f"Skipping {sym}: {e}")
-                continue
-            except Exception as e:
-                self.failsafe.halt(f"data feed error for {sym}: {e}")
-                self.notifier.send_system_error(self.failsafe.reason or str(e))
-                return out
             hist = self.history.get(sym)
+            if cache_only and hist is not None and not hist.empty:
+                out[sym] = hist
+                continue
+            fetch_start = start
+            if hist is not None and not hist.empty:
+                last = pd.Timestamp(hist["timestamp"].max())
+                if last.tzinfo is None:
+                    last = last.tz_localize(IST)
+                else:
+                    last = last.tz_convert(IST)
+                age_sec = (pd.Timestamp(now) - last).total_seconds()
+                if age_sec <= 240:
+                    out[sym] = hist
+                    continue
+                fetch_start = max(start, (last - timedelta(minutes=5)).to_pydatetime())
+            today = self._fetch_bars(sym, fetch_start, now)
+            if today is None:
+                if hist is not None and not hist.empty:
+                    out[sym] = hist
+                continue
             if hist is None or hist.empty:
                 merged = today
             else:
-                prior = hist[hist["session_date"] < now.date()]
-                merged = pd.concat([prior, today], ignore_index=True)
+                merged = pd.concat([_ohlcv_only(hist), _ohlcv_only(today)], ignore_index=True)
             if merged.empty:
                 continue
             merged = merged.drop_duplicates(subset=["timestamp"]).sort_values("timestamp")
-            out[sym] = add_core_indicators(merged)
+            merged = add_core_indicators(merged)
+            self.history[sym] = merged
+            out[sym] = merged
         return out
 
     def _manage_opens(self, stock_data: Dict[str, pd.DataFrame], now: datetime) -> None:
@@ -225,21 +274,38 @@ class PaperSession:
         _HEALTH["detail"] = self.failsafe.reason or f"ok {now.isoformat()}"
 
         if self._session_date != now.date():
-            self.daily_state = DailyRiskState()
-            self.failsafe.clear_if_healthy()
-            self._failsafe_alerted = False
-            self._disabled_alerted = False
-            self._session_date = now.date()
+            if self._loading_date != now.date():
+                self._loading_date = now.date()
+                self.daily_state = DailyRiskState()
+                self.failsafe.clear_if_healthy()
+                self._failsafe_alerted = False
+                self._disabled_alerted = False
+                self._rate_limit_alerted = False
+                self._history_loaded = set()
             if self._in_session(now) or now.time() < self.config.session.market_open:
                 print(f"Loading RVOL history for {now.date()}...")
-                self._refresh_history(now)
+                try:
+                    self._refresh_history(now)
+                except AngelRateLimitError:
+                    return
+            self._session_date = now.date()
+            self._use_cached_bars = True
 
         if not self._in_session(now):
             return
 
-        stock_data = self._combine_today(now)
+        try:
+            stock_data = self._combine_today(now, cache_only=self._use_cached_bars)
+            self._use_cached_bars = False
+        except AngelRateLimitError:
+            return
+        if self._rate_limit_alerted and stock_data:
+            self.notifier.send_info("Angel candle feed recovered. Scanner continuing.")
+            self._rate_limit_alerted = False
         nifty = stock_data.get("NIFTY50")
         if nifty is None or nifty.empty:
+            if self._rate_limit_alerted:
+                return
             self.failsafe.halt("NIFTY50 bars missing")
             if not self._failsafe_alerted:
                 self.notifier.send_system_error(self.failsafe.reason or "NIFTY missing")
@@ -295,12 +361,18 @@ class PaperSession:
                     self.scan_once(now)
                     time.sleep(interval)
                 elif self._in_session(now):
+                    self.scan_once(now)
                     time.sleep(30)
+                elif now.weekday() < 5 and dt_time(8, 0) <= now.time() < self.config.session.market_open:
+                    self.scan_once(now)
+                    time.sleep(60)
                 else:
                     time.sleep(60)
             except KeyboardInterrupt:
                 self.notifier.send_info("Paper scanner stopped.")
                 return
+            except AngelRateLimitError:
+                time.sleep(60)
             except Exception as e:
                 self.failsafe.halt(f"runtime error: {e}")
                 self.notifier.send_system_error(str(e))

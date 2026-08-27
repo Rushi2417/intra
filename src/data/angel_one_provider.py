@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import json
 import os
+import threading
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -70,6 +71,15 @@ class AngelOneConfigError(RuntimeError):
     pass
 
 
+class AngelRateLimitError(RuntimeError):
+    pass
+
+
+def _is_rate_limited(payload) -> bool:
+    text = str(payload).lower()
+    return "exceeding access rate" in text or "access denied because of exceeding" in text
+
+
 def load_angel_credentials() -> dict:
     from dotenv import load_dotenv
 
@@ -105,6 +115,9 @@ class AngelOneDataProvider(DataProvider):
         self._token_by_symbol: Dict[str, Tuple[str, str]] = {}
         self._logged_in = False
         self._login_date = None
+        self._call_lock = threading.Lock()
+        self._last_call_at = 0.0
+        self._min_interval = float(os.environ.get("ANGEL_MIN_INTERVAL_SEC", "1.25"))
 
     def list_universe(self) -> List[str]:
         return list(self.symbols)
@@ -196,7 +209,6 @@ class AngelOneDataProvider(DataProvider):
                 self._fetch_chunk(exchange, token, timeframe, cursor, chunk_end)
             )
             cursor = chunk_end
-            time.sleep(0.35)
 
         if not frames:
             return pd.DataFrame(
@@ -209,6 +221,37 @@ class AngelOneDataProvider(DataProvider):
         df["symbol"] = symbol.upper()
         df["session_date"] = df["timestamp"].dt.tz_convert(IST).dt.date
         return df.reset_index(drop=True)
+
+    def _throttle(self) -> None:
+        with self._call_lock:
+            wait = self._min_interval - (time.time() - self._last_call_at)
+        if wait > 0:
+            time.sleep(wait)
+
+    def _get_candle_data(self, params: dict) -> dict:
+        last_error: Optional[Exception] = None
+        for attempt in range(8):
+            self._throttle()
+            try:
+                raw = self._client.getCandleData(params)
+            except Exception as e:
+                last_error = e
+                if _is_rate_limited(e):
+                    time.sleep(min(30.0, 2.0 * (attempt + 1)))
+                    continue
+                raise
+            finally:
+                with self._call_lock:
+                    self._last_call_at = time.time()
+            if isinstance(raw, dict) and raw.get("status") is False:
+                if _is_rate_limited(raw):
+                    last_error = AngelRateLimitError(str(raw))
+                    time.sleep(min(30.0, 2.0 * (attempt + 1)))
+                    continue
+            return raw if isinstance(raw, dict) else {}
+        raise AngelRateLimitError(
+            f"Angel candle rate limit after retries: {last_error or params}"
+        )
 
     def _fetch_chunk(
         self,
@@ -225,7 +268,7 @@ class AngelOneDataProvider(DataProvider):
             "fromdate": start.strftime("%Y-%m-%d %H:%M"),
             "todate": end.strftime("%Y-%m-%d %H:%M"),
         }
-        raw = self._client.getCandleData(params)
+        raw = self._get_candle_data(params)
         rows = (raw or {}).get("data") or []
         if not rows:
             return pd.DataFrame(
